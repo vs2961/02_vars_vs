@@ -4,7 +4,7 @@ int main() {
     char vowel = 'e';
     unsigned int a = 2;
     unsigned int q = -1;
-    int b = 7 / 0;
-    printf("%c,%d,%d,%d,%d\n", vowel, a, q, a * q, b);
+    printf("%c,%d,%d,%lu\n", vowel, a, q, sizeof(a * q));
+    7 / 0;
     return 0;
 }
